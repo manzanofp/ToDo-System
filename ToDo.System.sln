@@ -5,19 +5,19 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0113A9B3-3678-4C07-864C-8E61D6CE7AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Domain.Tests", "tests\ToDo.System.Domain.Tests\ToDo.System.Domain.Tests.csproj", "{4C984FE6-A4D1-49AB-8E06-58A3DF3AD31D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Domain.Tests", "ToDo.System.Domain.Tests\ToDo.System.Domain.Tests.csproj", "{4C984FE6-A4D1-49AB-8E06-58A3DF3AD31D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A0A3DF20-D702-4AD5-B5A5-0CF885C20E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Domain", "src\ToDo.System.Domain\ToDo.System.Domain.csproj", "{E7C88E41-DDCB-4553-9C84-D15300767EE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Domain", "ToDo.System.Domain\ToDo.System.Domain.csproj", "{E7C88E41-DDCB-4553-9C84-D15300767EE4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{FEFD698E-60FA-46B7-8C3A-5E77568D8E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Api", "..\ToDo.System.Api\ToDo.System.Api.csproj", "{EEAD25AC-F12A-405B-B239-5AA9497F18ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Api", "ToDo.System.Api\ToDo.System.Api.csproj", "{EEAD25AC-F12A-405B-B239-5AA9497F18ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{E22AA635-3E98-4DDC-8A07-D473B0267E0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Data", "..\ToDo.System.Data\ToDo.System.Data.csproj", "{FAD39918-28DA-4504-8C7E-351AB19FD09C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.System.Data", "ToDo.System.Data\ToDo.System.Data.csproj", "{FAD39918-28DA-4504-8C7E-351AB19FD09C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

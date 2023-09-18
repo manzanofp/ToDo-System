@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ToDo.System.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+string mySqlConnection = builder.Configuration.GetConnectionString("Database");
+
+builder.Services.AddDbContext<ToDoContext>(options =>
+    options.UseMySql(mySqlConnection,
+                    ServerVersion.AutoDetect(mySqlConnection)));
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
